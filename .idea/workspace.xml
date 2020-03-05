@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbfc6c2f-e4b6-4431-bb5d-734630d1ab38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YhRbeOZlzcTsTmgteqLtuIugTv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArraySorter" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Heap" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Heap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Heap" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Heap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbfc6c2f-e4b6-4431-bb5d-734630d1ab38" name="Default Changelist" comment="" />
+      <created>1583392911127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583392911127</updated>
+      <workItem from="1583392914887" duration="21020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583395815033">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3773.1053@67.27.3773.1053" timestamp="1583395815033" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583406659993">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1583406659993" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583414239245">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239245" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241616" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583414239240">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239240" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241616" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583414239239">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239239" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241615" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583414239242">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239242" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241616" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1583413750904">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750904" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849239" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1583413750898">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750898" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849238" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1583413750897">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750897" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849238" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1583413750903">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750903" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849238" />
+    <state x="268" y="130" width="1507" height="845" key="SettingsEditor" timestamp="1583405614611">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="268" y="130" width="1507" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1583405614611" />
+    <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.3773.1053@67.27.3773.1053" timestamp="1583395971571" />
+    <state x="302" y="153" width="1372" height="799" key="new project wizard" timestamp="1583395850841">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="302" y="153" width="1372" height="799" key="new project wizard/67.27.3773.1053@67.27.3773.1053" timestamp="1583395850841" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Heap.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Heap.kt</url>
+          <line>149</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
