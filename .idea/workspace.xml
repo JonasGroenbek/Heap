@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbfc6c2f-e4b6-4431-bb5d-734630d1ab38" name="Default Changelist" comment="" />
+    <list default="true" id="dbfc6c2f-e4b6-4431-bb5d-734630d1ab38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YhRbeOZlzcTsTmgteqLtuIugTv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArraySorter" />
@@ -59,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583392911127</updated>
-      <workItem from="1583392914887" duration="21020000" />
+      <workItem from="1583392914887" duration="26635000" />
     </task>
     <servers />
   </component>
@@ -75,46 +84,46 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1583406659993" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583414239245">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583426744308">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239245" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241616" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583414239240">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583426744308" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583426744307">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239240" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241616" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583414239239">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583426744307" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583426744306">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239239" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241615" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583414239242">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583426744306" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583426744307">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583414239242" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583404241616" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1583413750904">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583426744307" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1583426743483">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750904" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849239" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1583413750898">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583426743483" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1583426743483">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750898" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849238" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1583413750897">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583426743483" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1583426743482">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750897" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849238" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1583413750903">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583426743482" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1583426743483">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583413750903" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583403849238" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583426743483" />
     <state x="268" y="130" width="1507" height="845" key="SettingsEditor" timestamp="1583405614611">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -130,13 +139,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/Heap.kt</url>
-          <line>42</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Heap.kt</url>
-          <line>149</line>
-          <option name="timeStamp" value="13" />
+          <line>120</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

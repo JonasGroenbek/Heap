@@ -1,29 +1,29 @@
-class Heap <T : Comparable<T>>/*(private var heap: Array<T?>, private var size: Int)*/{
+class Heap <T : Comparable<T>>(data: Array<T>, private var size: Int) {
 
-    private var heap: Array<T?>
-    private var size = 0
-
-    /**
-     * Pretty suprised that I need multiple constructors for handling this
-     */
-    constructor(heap: Array<T>){
-        this.heap = heap as Array<T?>
-        this.size = heap.size - 1
-    }
-
-    /**
-     * Ideally this should check for null elements.
-     */
-    constructor(heap: Array<T?>, size : Int){
-        this.heap = heap
-        this.size = size
-    }
+    //had a lot of problems when using T?
+    private var heap = Array<Any?>(size){ data[it] }
 
     /**
      * heapifies all subtrees, excluding leafs
      */
     init {
+        if (size > data.size) error("Initial array is too small for initial size.")
         for(pos in ((size - 1)/ 2) downTo 0) heapify(pos)
+    }
+
+    @Suppress("UNCHECKED_CAST")
+    private operator fun get(index: Int) = heap[index] as T
+
+    fun sort(partition: Int) : Array<T> {
+        swap(0, partition)
+        sortElement(0, size)
+        val sortedHeap = heap.filterNotNull() as Array<T>
+        heapify(0)
+        return sortedHeap
+    }
+
+    private fun sortElement(pos: Int, partition: Int){
+
     }
 
     //only for testing
@@ -63,8 +63,8 @@ class Heap <T : Comparable<T>>/*(private var heap: Array<T?>, private var size: 
      * ArrayIndexOutOfBounds probably should not be handled here, but for now it makes sense
      */
     fun lessThan(pos1: Int, pos2: Int) : Boolean {
-        return if (pos2 > size || pos2 == null) false
-               else                             heap[pos1]?.compareTo(heap[pos2]!!)!! < 0
+        return if (pos2 > size || get(pos2) == null) false
+               else                         get(pos1).compareTo(get(pos2)) < 0
     }
 
     /**
@@ -91,22 +91,24 @@ class Heap <T : Comparable<T>>/*(private var heap: Array<T?>, private var size: 
      * this will leave a dead element in the array, which is what the size partition is used for
      */
     private fun extract() : T? {
-        val e = heap[0]
+        val e = get(0)
         swap(0, size -1)
         heap[size - 1] = null
         size--
-        sink(0)
+        sink(0, size)
         return e
     }
+
+
+    private fun Array<Any?>.allocate(): Int = if (size == 0)  1 else size * 2
 
     /**
      * increases the amount of elements the array allocates if it is capped
      */
     private fun increaseSize(){
-        if(size == heap.size - 1){
-            //okay this is garbage
-            var enlargedHeap = arrayOfNulls<Comparable<*>>(heap.size * 2) as Array<T?>
-            System.arraycopy(heap, 0, enlargedHeap, 0, size)
+        if(size == heap.size || size == 0){
+            var enlargedHeap = arrayOfNulls<Any>(heap.allocate())
+            System.arraycopy(heap, 0, enlargedHeap, 0, heap.size)
             heap = enlargedHeap
         }
     }
@@ -125,18 +127,18 @@ class Heap <T : Comparable<T>>/*(private var heap: Array<T?>, private var size: 
     /**
      * Recursive function that sinks a element down the tree, prioritizing swapping the biggest of children
      */
-    private fun sink(pos: Int){
+    private fun sink(pos: Int, partition: Int){
         //basecase
         if(isHeap(pos)) return
-        if(rightChild(pos) > size){
+        if(rightChild(pos) > partition){
             swap(pos, leftChild(pos))
         } else {
             if(lessThan(leftChild(pos), rightChild(pos))){
                 swap(pos, rightChild(pos))
-                sink(rightChild(pos))
+                sink(rightChild(pos), partition)
             } else {
                 swap(pos, leftChild(pos))
-                sink(leftChild(pos))
+                sink(leftChild(pos), partition)
             }
 
         }
@@ -160,7 +162,7 @@ class Heap <T : Comparable<T>>/*(private var heap: Array<T?>, private var size: 
 
     companion object {
         @JvmStatic fun main(args: Array<String>) {
-            /*var arr = arrayOfNulls<String>(9)
+            var arr = arrayOf("asd","asd","345")
             var heap = Heap(arr, 0)
             heap.insert("hey")
             heap.insert("asd")
@@ -172,7 +174,7 @@ class Heap <T : Comparable<T>>/*(private var heap: Array<T?>, private var size: 
             heap.insert("xxx")
             heap.insert("asdasd")
             heap.insert("xxxxx")
-            heap.print()*/
+            heap.print()
         }
     }
 }
